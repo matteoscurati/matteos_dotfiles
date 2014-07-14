@@ -1,0 +1,14 @@
+ZSH=$HOME/.oh-my-zsh
+
+# Sovrascrivo le impostazione di Thoughbot
+HISTFILE=~/.zhistory
+
+# Setto un tema
+ZSH_THEME="robbyrussell"
+
+source $ZSH/oh-my-zsh.sh
+
+plugins=(git osx ruby)
+
+# recommended by brew doctor
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
