@@ -1,15 +1,22 @@
-" plugin
-" Bundle 'tomasr/molokai'
-Bundle 'altercation/vim-colors-solarized'
+" A Vim plugin which shows a git diff in the 'gutter' (sign column)
 Bundle 'airblade/vim-gitgutter'
+
+"Lean & mean status/tabline for vim that's light as air
 Bundle 'bling/vim-airline'
+
+"This plugin is used for handling column separated data with Vim
 Bundle 'chrisbra/csv.vim'
+
+"Comment in VIM
 Bundle 'scrooloose/nerdcommenter'
-" Bundle 'vim-scripts/AutoComplPop'
-"Bundle 'vim-scripts/taglist.vim'
-"Plugin 'austintaylor/vim-indentobject'
-" Plugin 'sjl/splice.vim'
+
+"This plug-in provides automatic closing of quotes, parenthesis, brackets
 Plugin 'Raimondi/delimitMate'
+
+" The matchit.vim script allows you to configure % to match more than just
+" single characters
 Plugin 'runtime macros/matchit.vim'
+
 Bundle 'Yggdroot/indentLine' 
+
 Bundle 'ervandew/supertab'
