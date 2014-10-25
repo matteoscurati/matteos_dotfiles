@@ -11,7 +11,7 @@ Bundle 'chrisbra/csv.vim'
 Bundle 'scrooloose/nerdcommenter'
 
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
-Plugin 'Raimondi/delimitMate'
+Bundle 'Raimondi/delimitMate'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters

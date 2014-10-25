@@ -12,3 +12,13 @@ plugins=(git osx ruby)
 
 # recommended by brew doctor
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+export PATH="$HOME/.bin:$PATH"
+
+export PATH="$PATH:/usr/local/lib/node_modules"
+source $(brew --prefix nvm)/nvm.sh
+
+# rbenv settings
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$PATH
+eval "$(rbenv init -)"
