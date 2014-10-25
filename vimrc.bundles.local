@@ -11,12 +11,14 @@ Bundle 'chrisbra/csv.vim'
 Bundle 'scrooloose/nerdcommenter'
 
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
-Plugin 'Raimondi/delimitMate'
+Bundle 'Raimondi/delimitMate'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
 Plugin 'runtime macros/matchit.vim'
 
+" This plugin is used for displaying thin vertical lines at each indentation
+" level for code indented with spaces.
 Bundle 'Yggdroot/indentLine' 
 
-Bundle 'ervandew/supertab'
+"Bundle 'ervandew/supertab'

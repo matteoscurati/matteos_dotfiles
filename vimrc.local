@@ -1,6 +1,4 @@
 syntax enable
-"set background=dark
-"colorscheme molokai 
 set relativenumber
 
 " let g:rehash256 = 1
@@ -11,3 +9,16 @@ highlight clear SignColumn
 set laststatus=2
 
 let g:indentLine_color_term = 15
+
+" AUTOCMD
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup vimrcEx
+  autocmd!
+
+  autocmd FileType slim setlocal textwidth=0
+  autocmd BufRead,BufNewFile *.slim setlocal textwidth=0
+
+  autocmd FileType md setlocal textwidth=0
+  autocmd BufRead,BufNewFile *.md setlocal textwidth=0
+
+augroup END
