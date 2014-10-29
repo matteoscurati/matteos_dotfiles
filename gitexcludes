@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+/bin/stubs
+/.bundle/
+/env
+jgy-*
+.python_history
+.ruby-version
+TAGS
