@@ -21,4 +21,5 @@ Plugin 'runtime macros/matchit.vim'
 " level for code indented with spaces.
 Bundle 'Yggdroot/indentLine' 
 
-"Bundle 'ervandew/supertab'
+"This plugin is a front for ag, A.K.A. the_silver_searcher.
+Bundle 'rking/ag.vim'
