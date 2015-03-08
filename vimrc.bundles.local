@@ -1,8 +1,8 @@
 " A Vim plugin which shows a git diff in the 'gutter' (sign column)
-Bundle 'airblade/vim-gitgutter'
+"Bundle 'airblade/vim-gitgutter'
 
 "Lean & mean status/tabline for vim that's light as air
-Bundle 'bling/vim-airline'
+"Bundle 'bling/vim-airline'
 
 "This plugin is used for handling column separated data with Vim
 Bundle 'chrisbra/csv.vim'
@@ -15,11 +15,11 @@ Bundle 'Raimondi/delimitMate'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
-Plugin 'runtime macros/matchit.vim'
+"Plugin 'runtime macros/matchit.vim'
 
 " This plugin is used for displaying thin vertical lines at each indentation
 " level for code indented with spaces.
-Bundle 'Yggdroot/indentLine' 
+"Bundle 'Yggdroot/indentLine'
 
 "This plugin is a front for ag, A.K.A. the_silver_searcher.
-Bundle 'rking/ag.vim'
+"Bundle 'rking/ag.vim'
