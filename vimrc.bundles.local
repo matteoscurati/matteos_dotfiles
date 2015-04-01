@@ -22,4 +22,4 @@ Bundle 'Raimondi/delimitMate'
 "Bundle 'Yggdroot/indentLine'
 
 "This plugin is a front for ag, A.K.A. the_silver_searcher.
-"Bundle 'rking/ag.vim'
+Bundle 'rking/ag.vim'
