@@ -29,3 +29,8 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
 eval "$(rbenv init - zsh --no-rehash)"
+
+# Android
+
+export PATH="$HOME/Android/tools:$PATH"
+export PATH="$HOME/Android/platform-tools:$PATH"
