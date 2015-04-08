@@ -6,3 +6,4 @@ ln -s /Users/matteoscurati/matteos_dotfiles/vimrc.bundles.local /Users/matteoscu
 ln -s /Users/matteoscurati/matteos_dotfiles/vimrc.local /Users/matteoscurati/.vimrc.local
 ln -s /Users/matteoscurati/matteos_dotfiles/zshrc.local /Users/matteoscurati/.zshrc.local
 ln -s /Users/matteoscurati/matteoscurati/gitexcludes /Users/matteoscurati/.gitexcludes
+ln -s /Users/matteoscurati/matteos_dotfiles/tumx.conf.local /Users/matteoscurati/.tumx.conf.local

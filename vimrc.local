@@ -22,3 +22,5 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile *.md setlocal textwidth=0
 
 augroup END
+
+set clipboard=unnamed
