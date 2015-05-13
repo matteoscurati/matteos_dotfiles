@@ -13,6 +13,9 @@ Bundle 'scrooloose/nerdcommenter'
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
 Bundle 'Raimondi/delimitMate'
 
+" Alignment
+Bundle 'junegunn/vim-easy-align'
+
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
 "Plugin 'runtime macros/matchit.vim'
@@ -23,3 +26,6 @@ Bundle 'Raimondi/delimitMate'
 
 "This plugin is a front for ag, A.K.A. the_silver_searcher.
 Bundle 'rking/ag.vim'
+
+" Search
+Plugin 'haya14busa/incsearch.vim'
