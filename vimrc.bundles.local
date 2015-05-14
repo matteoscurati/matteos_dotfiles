@@ -7,14 +7,22 @@
 "This plugin is used for handling column separated data with Vim
 Bundle 'chrisbra/csv.vim'
 
+Plugin 'altercation/vim-colors-solarized'
+
 "Comment in VIM
 Bundle 'scrooloose/nerdcommenter'
 
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
 Bundle 'Raimondi/delimitMate'
 
+" visual tab hints
+Bundle 'nathanaelkane/vim-indent-guides'
+
 " Alignment
 Bundle 'junegunn/vim-easy-align'
+
+" Rails partial
+Bundle 'jbgutierrez/vim-partial'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters

@@ -1,5 +1,5 @@
 [user]
-  name = Matteo Scurati 
+  name = Matteo Scurati
   email = matteo.scurati@gmail.com
 [core]
   excludesfile = "~/.gitexcludes"
