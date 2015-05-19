@@ -1,28 +1,28 @@
 " A Vim plugin which shows a git diff in the 'gutter' (sign column)
-"Bundle 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
 
 "Lean & mean status/tabline for vim that's light as air
-"Bundle 'bling/vim-airline'
+"Plug 'bling/vim-airline'
 
 "This plugin is used for handling column separated data with Vim
-Bundle 'chrisbra/csv.vim'
+Plug 'chrisbra/csv.vim'
 
-Plugin 'altercation/vim-colors-solarized'
+Plug 'altercation/vim-colors-solarized'
 
 "Comment in VIM
-Bundle 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdcommenter'
 
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
-Bundle 'Raimondi/delimitMate'
+Plug 'Raimondi/delimitMate'
 
 " visual tab hints
-Bundle 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Alignment
-Bundle 'junegunn/vim-easy-align'
+Plug 'junegunn/vim-easy-align'
 
 " Rails partial
-Bundle 'jbgutierrez/vim-partial'
+Plug 'jbgutierrez/vim-partial'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
@@ -30,10 +30,10 @@ Bundle 'jbgutierrez/vim-partial'
 
 " This plugin is used for displaying thin vertical lines at each indentation
 " level for code indented with spaces.
-"Bundle 'Yggdroot/indentLine'
+"Plug 'Yggdroot/indentLine'
 
 "This plugin is a front for ag, A.K.A. the_silver_searcher.
-Bundle 'rking/ag.vim'
+Plug 'rking/ag.vim'
 
 " Search
-Plugin 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch.vim'
