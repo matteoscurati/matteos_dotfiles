@@ -22,6 +22,11 @@ augroup vimrcEx
   autocmd FileType md setlocal textwidth=0
   autocmd BufRead,BufNewFile *.md setlocal textwidth=0
 
+  autocmd FileType markdown setlocal textwidth=0
+  autocmd BufRead,BufNewFile *.markdown setlocal textwidth=0
+
+  autocmd FileType sass setlocal textwidth=0
+  autocmd BufRead,BufNewFile *.sass setlocal textwidth=0
 augroup END
 
 " Automatically remove trailing spaces on some files (and fix tabs)
