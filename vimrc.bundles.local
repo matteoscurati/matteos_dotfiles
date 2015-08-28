@@ -24,6 +24,9 @@ Plug 'junegunn/vim-easy-align'
 " Rails partial
 Plug 'jbgutierrez/vim-partial'
 
+" Syntax
+Plug 'othree/yajs.vim'
+
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
 "Plugin 'runtime macros/matchit.vim'
