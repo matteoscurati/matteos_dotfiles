@@ -35,5 +35,4 @@ eval "$(rbenv init - zsh --no-rehash)"
 export PATH="$HOME/Android/tools:$PATH"
 export PATH="$HOME/Android/platform-tools:$PATH"
 eval "$(rbenv init - --no-rehash zsh)"
-
 export PATH="./bin:./bin/stubs:$PATH"
