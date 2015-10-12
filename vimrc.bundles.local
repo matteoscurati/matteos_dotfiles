@@ -7,7 +7,7 @@
 "This plugin is used for handling column separated data with Vim
 Plug 'chrisbra/csv.vim'
 
-Plug 'altercation/vim-colors-solarized'
+"Plug 'altercation/vim-colors-solarized'
 
 "Comment in VIM
 Plug 'scrooloose/nerdcommenter'

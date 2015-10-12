@@ -4,9 +4,10 @@ set relativenumber
 highlight clear SignColumn
 
 syntax enable
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+"set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
+colorscheme default
 let g:indent_guides_auto_colors = 1
 
 set laststatus=2
