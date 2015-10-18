@@ -1,3 +1,4 @@
+" Git
 " A Vim plugin which shows a git diff in the 'gutter' (sign column)
 "Plug 'airblade/vim-gitgutter'
 
@@ -7,19 +8,18 @@
 "This plugin is used for handling column separated data with Vim
 Plug 'chrisbra/csv.vim'
 
-"Plug 'altercation/vim-colors-solarized'
-
 "Comment in VIM
 Plug 'scrooloose/nerdcommenter'
 
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
 Plug 'Raimondi/delimitMate'
 
-" visual tab hints
-Plug 'nathanaelkane/vim-indent-guides'
-
 " Alignment
 Plug 'junegunn/vim-easy-align'
+
+" Indent
+" visual tab hints with better indent guides
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Rails partial
 Plug 'jbgutierrez/vim-partial'
@@ -31,12 +31,16 @@ Plug 'othree/yajs.vim'
 " single characters
 "Plugin 'runtime macros/matchit.vim'
 
-" This plugin is used for displaying thin vertical lines at each indentation
-" level for code indented with spaces.
-"Plug 'Yggdroot/indentLine'
-
 "This plugin is a front for ag, A.K.A. the_silver_searcher.
 Plug 'rking/ag.vim'
 
 " Search
 Plug 'haya14busa/incsearch.vim'
+
+" Sorround
+" Easy sorround stuff with cs
+Plug 'tpope/vim-surround'
+
+" Tmux
+" Handy tmux-vim panes navigation
+Plug 'christoomey/vim-tmux-navigator'

@@ -1,12 +1,5 @@
 syntax enable
-set relativenumber
 
-highlight clear SignColumn
-
-syntax enable
-"set background=dark
-"let g:solarized_termcolors=256
-"colorscheme solarized
 colorscheme default
 let g:indent_guides_auto_colors = 1
 
@@ -32,9 +25,15 @@ augroup END
 
 " Automatically remove trailing spaces on some files (and fix tabs)
 au BufWritePre *.rb,*.css,*.sass,*.scss,*.coffee :%s/\s\+$//e | :retab
+
+" Tabs and indentention lines
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_enable_on_vim_startup = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=NONE
 
 set clipboard=unnamed
+
+" Gitgutter
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
