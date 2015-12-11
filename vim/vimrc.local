@@ -21,6 +21,15 @@ augroup vimrcEx
 
   autocmd FileType sass setlocal textwidth=0
   autocmd BufRead,BufNewFile *.sass setlocal textwidth=0
+
+  autocmd FileType python setlocal sw=4
+  autocmd BufRead,BufNewFile python setlocal sw=4
+
+  autocmd FileType python setlocal ts=4
+  autocmd BufRead,BufNewFile python setlocal ts=4
+
+  autocmd FileType python setlocal sts=4
+  autocmd BufRead,BufNewFile python setlocal sts=4
 augroup END
 
 " Automatically remove trailing spaces on some files (and fix tabs)
