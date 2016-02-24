@@ -26,6 +26,7 @@ Plug 'jbgutierrez/vim-partial'
 
 " Syntax
 Plug 'othree/yajs.vim'
+Plug 'isRuslan/vim-es6'
 
 " The matchit.vim script allows you to configure % to match more than just
 " single characters
