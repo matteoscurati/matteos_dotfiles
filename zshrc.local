@@ -47,3 +47,6 @@ export PATH="$HOME/Android/platform-tools:$PATH"
 eval "$(rbenv init - --no-rehash zsh)"
 export PATH="./bin:./bin/stubs:$PATH"
 eval "$(rbenv init - --no-rehash)"
+
+export NVM_DIR=~/.nvm
+  . $(brew --prefix nvm)/nvm.sh

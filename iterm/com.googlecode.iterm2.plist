@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -262,23 +264,29 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>259 325 445 77 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 315 606 456 0 0 1280 777 </string>
+	<string>1236 942 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 299 620 392 0 0 1280 777 </string>
+	<string>330 300 620 392 0 0 1280 777 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>483 191 665 477 0 0 1280 777 </string>
+	<string>222 205 993 1161 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>3 263 665 477 0 0 1280 777 </string>
+	<string>1280 58 1273 1359 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>630 323 650 477 0 0 1280 800 </string>
+	<string>978 180 1265 1107 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>640 48 634 729 0 0 1280 777 </string>
+	<string>211 180 1225 1143 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>215 323 650 477 0 0 1280 800 </string>
+	<string>0 911 665 477 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>640 59 634 351 0 0 1280 777 </string>
+	<string>285 300 650 477 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>640 48 634 729 0 0 1280 777 </string>
+	<string>0 46 1074 729 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>275 203 650 477 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>3 46 1258 729 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_8FEF65C1-C425-404D-8CD2-B97D3F66DE43</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_8FEF65C1-C425-404D-8CD2-B97D3F66DE43_selection</key>
@@ -920,6 +928,8 @@
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+	<key>NoSyncInstallationId</key>
+	<string>31DAD6FE-315B-40B6-BA6B-21E0518C6087</string>
 	<key>NoSyncLastTipTime</key>
 	<real>476098812.44127101</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -1038,18 +1048,24 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/matteoscurati/matteos_dotfiles/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=65</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-18T09:40:20Z</date>
+	<date>2016-05-18T08:30:47Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1458230272</real>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
@@ -1057,6 +1073,10 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160206</string>
+	<string>2.9.20160510</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>

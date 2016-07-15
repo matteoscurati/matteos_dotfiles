@@ -45,3 +45,5 @@ Plug 'tpope/vim-surround'
 " Tmux
 " Handy tmux-vim panes navigation
 Plug 'christoomey/vim-tmux-navigator'
+
+Plug 'elixir-lang/vim-elixir'

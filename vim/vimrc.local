@@ -10,6 +10,9 @@ set laststatus=2
 augroup vimrcEx
   autocmd!
 
+  autocmd FileType html setlocal textwidth=0
+  autocmd BufRead,BufNewFile *.html setlocal textwidth=0
+
   autocmd FileType slim setlocal textwidth=0
   autocmd BufRead,BufNewFile *.slim setlocal textwidth=0
 
