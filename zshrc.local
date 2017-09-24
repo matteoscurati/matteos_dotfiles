@@ -34,10 +34,8 @@ export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$PATH
 eval "$(rbenv init -)"
 
 # Virtualenv
-
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2.7
 eval "$(rbenv init - zsh --no-rehash)"
 
 # Android
@@ -50,3 +48,7 @@ eval "$(rbenv init - --no-rehash)"
 
 export NVM_DIR=~/.nvm
   . $(brew --prefix nvm)/nvm.sh
+
+# Yarn
+export PATH="$HOME/.yarn/bin:$PATH"
+source /Users/matteoscurati/.asdf/asdf.sh
