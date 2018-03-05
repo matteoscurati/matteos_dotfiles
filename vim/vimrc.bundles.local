@@ -14,6 +14,9 @@ Plug 'scrooloose/nerdcommenter'
 "This plug-in provides automatic closing of quotes, parenthesis, brackets
 Plug 'Raimondi/delimitMate'
 
+"Auto close (X)HTML tags"
+Plug 'alvan/vim-closetag'
+
 " Alignment
 Plug 'junegunn/vim-easy-align'
 
