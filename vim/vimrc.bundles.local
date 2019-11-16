@@ -50,3 +50,7 @@ Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'elixir-lang/vim-elixir'
+
+" The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
