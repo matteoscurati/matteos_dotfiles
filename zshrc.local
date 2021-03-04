@@ -28,23 +28,15 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$PATH:/usr/local/lib/node_modules"
 source $(brew --prefix nvm)/nvm.sh
 
-# rbenv settings
-export PATH=$HOME/.rbenv/bin:$PATH
-export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$PATH
-eval "$(rbenv init -)"
-
 # Virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2.7
-eval "$(rbenv init - zsh --no-rehash)"
 
 # Android
 
 export PATH="$HOME/Android/tools:$PATH"
 export PATH="$HOME/Android/platform-tools:$PATH"
-eval "$(rbenv init - --no-rehash zsh)"
 export PATH="./bin:./bin/stubs:$PATH"
-eval "$(rbenv init - --no-rehash)"
 
 export NVM_DIR=~/.nvm
   . $(brew --prefix nvm)/nvm.sh

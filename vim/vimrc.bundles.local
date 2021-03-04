@@ -54,3 +54,15 @@ Plug 'elixir-lang/vim-elixir'
 " The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
+
+" JavaScript support
+Plug 'pangloss/vim-javascript'
+
+" TypeScript syntax
+Plug 'leafgarland/typescript-vim'
+
+" GraphQL syntax
+Plug 'jparise/vim-graphql'
+
+" Coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
