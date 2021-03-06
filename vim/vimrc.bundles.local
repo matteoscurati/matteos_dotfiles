@@ -65,4 +65,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
 
 " Coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Tabnine
+Plug 'codota/tabnine-vim'
